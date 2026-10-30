@@ -1,38 +1,28 @@
-# CI/CD Tools and Practices Final Project Template
+# CI/CD Final Project
 
-This repository contains the template to be used for the Final Project for the Coursera course **CI/CD Tools and Practices**.
+**Project Name: Counter Service CI/CD Pipeline**
 
-## Usage
+## Description
 
-This repository is to be used as a template to create your own repository in your own GitHub account. No need to Fork it as it has been set up as a Template. This will avoid confusion when making Pull Requests in the future.
+This project demonstrates the implementation of a CI/CD pipeline for a Counter Service application.
 
-From the GitHub **Code** page, press the green **Use this template** button to create your own repository from this template.
+The project uses GitHub Actions for automated code linting and unit testing, Tekton for pipeline automation, and OpenShift for application deployment.
 
-Name your repo: `ci-cd-final-project`.
+## Technologies Used
 
-## Setup
+- GitHub
+- GitHub Actions
+- Python
+- Flake8
+- Nose
+- Tekton
+- OpenShift Pipelines
+- Docker
 
-After entering the lab environment you will need to run the `setup.sh` script in the `./bin` folder to install the prerequisite software.
+## Project Objectives
 
-```bash
-bash bin/setup.sh
-```
-
-Then you must exit the shell and start a new one for the Python virtual environment to be activated.
-
-```bash
-exit
-```
-
-## Tasks
-
-
-## License
-
-Licensed under the Apache License. See [LICENSE](/LICENSE)
-
-## Author
-
-Skills Network
-
-## <h3 align="center"> © IBM Corporation 2023. All rights reserved. <h3/>
+1. Automate code quality checks using GitHub Actions.
+2. Perform automated unit testing.
+3. Create CI/CD pipelines using Tekton.
+4. Automate application deployment using OpenShift.
+5. Monitor pipeline execution and application logs.
